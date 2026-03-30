@@ -1,1 +1,0 @@
-# Zordeer-Flatpak-manifest
