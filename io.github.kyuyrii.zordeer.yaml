@@ -30,6 +30,8 @@ finish-args:
   - --filesystem=xdg-download
 
 add-extensions:
+# The x86_64 extensions are listed because UMU was unable to find the .so files correctly.
+
   org.freedesktop.Platform.Compat.i386:
     directory: lib/i386-linux-gnu
     version: *runtime-version
